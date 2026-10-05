@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where did India's rise in women's work come from?</title>
+<style>
+:root{--ink:#1d2b4f;--teal:#1b8a8a;--mute:#5b6477;--bg:#f4f6f9;--line:#d9dee7}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+main{max-width:42rem;margin:0 auto;padding:3rem 1.25rem 4rem}
+h1{font:700 2.1rem/1.2 system-ui,-apple-system,"Segoe UI",sans-serif;margin:0 0 .6rem;letter-spacing:-.01em}
+h2{font:600 1.15rem/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;margin:2.6rem 0 .5rem;color:var(--teal)}
+.sub{color:var(--mute);font:.95rem/1.5 system-ui,sans-serif;margin:0 0 2rem}
+figure{margin:1.4rem 0;background:#fff;border:1px solid var(--line);padding:.8rem}
+figure img{width:100%;height:auto;display:block}
+figcaption{font:.82rem/1.45 system-ui,sans-serif;color:var(--mute);margin-top:.5rem}
+.note{border-left:3px solid var(--teal);padding:.1rem 0 .1rem 1rem;color:var(--mute);font-size:.98rem}
+a{color:var(--teal)}footer{margin-top:3rem;font:.85rem/1.5 system-ui,sans-serif;color:var(--mute)}
+@media (max-width:480px){body{font-size:17px}h1{font-size:1.7rem}}
+</style></head><body><main>
+<h1>Where did India's rise in women's work come from?</h1>
+<p class="sub">Periodic Labour Force Survey unit-level data, 2017-18 to 2025 &middot; Draft work sample by [Your Name]</p>
+
+<p>Women's labour force participation (age 15+, usual status) climbed from 23.3% in 2017-18 to 41.7% in 2023-24. I asked a narrow question: is that because different women entered the population, or because the same kinds of women started working, and in what kind of work?</p>
+
+<figure><img src="img/female_lfpr_trend.svg" alt="Line chart of female LFPR for rural, urban and all women, 2017-18 to 2025">
+<figcaption>Rural women drove the rise. Dotted lines mark the move to calendar-year rounds and the January 2025 sample redesign.</figcaption></figure>
+
+<h2>It is not about who women are</h2>
+<p>Splitting the change by sector, age, education and marital status leaves essentially no room for composition: it accounts for -0.4 points of the 18.4-point rise. Participation went up within the same kinds of women.</p>
+<figure><img src="img/decomposition.svg" alt="Bar chart: composition -0.4 pp, within-group +18.8 pp">
+<figcaption>Kitagawa decomposition over sector, 5 age bands, 4 education bands and marital status.</figcaption></figure>
+
+<h2>The new work is mostly self-employment and unpaid help</h2>
+<p>Own-account work grew from 4.5% to 12.4% of all women, and unpaid help in household enterprises from 7.0% to 14.8%. Together that is about 86% of the rise in female employment. Regular wage work rose by 1.8 points and casual labour by 0.8.</p>
+<figure><img src="img/female_status_composition.svg" alt="Stacked bars of what women aged 15+ do in 2017-18, 2023-24 and CY 2025">
+<figcaption>Share of women aged 15+ by usual activity.</figcaption></figure>
+
+<h2>What I cannot say yet</h2>
+<p class="note">Calendar 2025 shows participation at 40.0% and unpaid help falling by 3.8 points, but the survey changed from July-June rounds to calendar years and the sample was redesigned, so I treat that move as indicative, not a trend. These estimates also have no standard errors yet, and a decomposition shows what did not change, not why participation rose.</p>
+
+<h2>Data and checks</h2>
+<p>First-visit PLFS person files, weighted with each release's own rule. Headline indicators reproduce MoSPI's published figures for 2022-23, 2023-24, calendar 2024 and 2025, and for 2017-18's LFPR. One 2022-23 quirk (nine Assam records with a very large multiplier) is handled by reporting results with and without those records. Code and tables: <a href="https://github.com/nikhil-gajbhiye/plfs-female-lfp">GitHub repository</a>.</p>
+
+<footer>Source: Periodic Labour Force Survey, National Statistics Office, MoSPI, Government of India.</footer>
+</main></body></html>

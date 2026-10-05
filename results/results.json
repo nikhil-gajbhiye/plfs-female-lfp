@@ -1,0 +1,126 @@
+{
+ "decomposition": {
+  "2017-18 to 2023-24": {
+   "total": 18.362492389575436,
+   "composition": -0.4386492452545232,
+   "within_group": 18.801141634829964,
+   "check": 3.552713678800501e-15
+  },
+  "2023-24 to CY2025 (crosses redesign)": {
+   "total": -1.6393933014163409,
+   "composition": -0.3199780814760459,
+   "within_group": -1.3194152199402809,
+   "check": 1.4210854715202004e-14
+  }
+ },
+ "headline": [
+  {
+   "round": "2017-18",
+   "lfpr": 49.79,
+   "wpr": 46.81,
+   "ur": 5.99,
+   "lfpr_male": 75.8,
+   "lfpr_female": 23.29,
+   "lfpr_f_rural": 24.59,
+   "lfpr_f_urban": 20.35,
+   "lfpr_female_excl_suspect": 23.29,
+   "n_suspect": 0
+  },
+  {
+   "round": "2018-19",
+   "lfpr": 50.22,
+   "wpr": 47.32,
+   "ur": 5.76,
+   "lfpr_male": 75.54,
+   "lfpr_female": 24.53,
+   "lfpr_f_rural": 26.42,
+   "lfpr_f_urban": 20.4,
+   "lfpr_female_excl_suspect": 24.53,
+   "n_suspect": 0
+  },
+  {
+   "round": "2019-20",
+   "lfpr": 53.52,
+   "wpr": 50.95,
+   "ur": 4.8,
+   "lfpr_male": 76.84,
+   "lfpr_female": 29.97,
+   "lfpr_f_rural": 33.04,
+   "lfpr_f_urban": 23.33,
+   "lfpr_female_excl_suspect": 29.97,
+   "n_suspect": 0
+  },
+  {
+   "round": "2020-21",
+   "lfpr": 54.47,
+   "wpr": 52.19,
+   "ur": 4.2,
+   "lfpr_male": 76.35,
+   "lfpr_female": 32.34,
+   "lfpr_f_rural": 36.32,
+   "lfpr_f_urban": 23.1,
+   "lfpr_female_excl_suspect": 32.34,
+   "n_suspect": 0
+  },
+  {
+   "round": "2021-22",
+   "lfpr": 55.17,
+   "wpr": 52.94,
+   "ur": 4.05,
+   "lfpr_male": 77.2,
+   "lfpr_female": 32.82,
+   "lfpr_f_rural": 36.56,
+   "lfpr_f_urban": 23.75,
+   "lfpr_female_excl_suspect": 32.82,
+   "n_suspect": 0
+  },
+  {
+   "round": "2022-23",
+   "lfpr": 57.86,
+   "wpr": 56.03,
+   "ur": 3.16,
+   "lfpr_male": 78.54,
+   "lfpr_female": 36.97,
+   "lfpr_f_rural": 41.5,
+   "lfpr_f_urban": 25.42,
+   "lfpr_female_excl_suspect": 37.98,
+   "n_suspect": 4
+  },
+  {
+   "round": "2023-24",
+   "lfpr": 60.13,
+   "wpr": 58.22,
+   "ur": 3.18,
+   "lfpr_male": 78.8,
+   "lfpr_female": 41.66,
+   "lfpr_f_rural": 47.56,
+   "lfpr_f_urban": 27.98,
+   "lfpr_female_excl_suspect": 41.66,
+   "n_suspect": 0
+  },
+  {
+   "round": "CY2024",
+   "lfpr": 59.61,
+   "wpr": 57.7,
+   "ur": 3.21,
+   "lfpr_male": 79.23,
+   "lfpr_female": 40.26,
+   "lfpr_f_rural": 45.8,
+   "lfpr_f_urban": 27.63,
+   "lfpr_female_excl_suspect": 40.26,
+   "n_suspect": 0
+  },
+  {
+   "round": "CY2025",
+   "lfpr": 59.27,
+   "wpr": 57.43,
+   "ur": 3.11,
+   "lfpr_male": 79.06,
+   "lfpr_female": 40.02,
+   "lfpr_f_rural": 45.88,
+   "lfpr_f_urban": 27.67,
+   "lfpr_female_excl_suspect": 40.02,
+   "n_suspect": 0
+  }
+ ]
+}
